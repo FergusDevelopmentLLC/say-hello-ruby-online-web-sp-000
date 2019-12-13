@@ -3,7 +3,7 @@ def say_hello(name = "Ruby Programmer")
   if name == "Ruby Programmer"
     puts name
   else
-    puts "Hello, #{name}"
+    puts "Hello #{name}"
   end
 end
 
