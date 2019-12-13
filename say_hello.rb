@@ -1,4 +1,9 @@
 # Build your say_hello method here
 def say_hello(name = "Ruby Programmer")
-  puts "Hello, #{name}"
+  if name == "Ruby Programmer"
+    puts name
+  else
+    puts "Hello, #{name}"
+  end
+
 end
